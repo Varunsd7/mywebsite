@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Varun Dornal | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0056b3;
+      --light: #f9f9f9;
+      --dark: #222;
+      --accent: #007bff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid var(--primary);
+      object-fit: cover;
+    }
+
+    .header-content {
+      flex: 1;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+    }
+
+    .header h2 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    .section {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .section h3 {
+      color: var(--accent);
+      margin-bottom: 10px;
+      border-left: 5px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 0;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media(max-width: 768px) {
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="C:\Users\Lenovo\OneDrive\Desktop\T1\8\IMG-20240829-WA0016.jpg" alt="Varun Dornal" />
+      <div class="header-content">
+        <h1>Varun Dornal</h1>
+        <h2>ECE Student | Dict: Ayuktam Innovations Pvt Ltd</h2>
+        <p>I am a young engineering student looking for opportunities to build innovative solutions, leveraging my skills in programming, AI, and teamwork.</p>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="section">
+        <h3>Contact</h3>
+        <p>Email: varundornal272005@gmail.com</p>
+        <p>Phone: +91 7795937397</p>
+        <p>LinkedIn: /varun-dornal</p>
+      </div>
+
+      <div class="section">
+        <h3>Languages & Skills</h3>
+        <ul>
+          <li>Programming: C, IoT, Embedded Systems, REST API, Arduino</li>
+          <li>Soft Skills: Leadership, Communication, Teamwork, Time Management</li>
+          <li>Languages: English, Hindi, Marathi, Telugu</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>Ionic Plasma Thruster:</strong> Research-based project on ion thrusters for advanced space propulsion.</li>
+        <li><strong>Autonomous Pesticide Robot:</strong> AI & sensor-based robot to reduce harmful pesticide usage.</li>
+        <li><strong>STEM Borer Detection:</strong> Smart farming solution using image processing and pest detection algorithms.</li>
+      </ul>
+    </div>
+
+    <div class="two-col">
+      <div class="section">
+        <h3>Education</h3>
+        <p><strong>Walchand Institute of Technology, Solapur</strong></p>
+        <p>B.Tech Electronics & Computer Engineering (2023 - 2027)</p>
+        <p>Minor in Information Technology</p>
+        <p>CGPA: 9.1 (1st Year)</p>
+      </div>
+
+      <div class="section">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Prompt Design in Vertex AI – Google Cloud</li>
+          <li>AI for Engineers – Intel Bootcamp</li>
+          <li>Generative AI Essentials – Google Cloud</li>
+          <li>Programming in C – Infosys Springboard</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Achievements</h3>
+      <ul>
+        <li>1.Winner's of Smart India Hackathon 2024-25</li>
+        <li>2.1st Runner-Up at InnovateYou organized by Innovation Foundation 2025</li> 
+        <li>3.st at Kalpak 2024 organized by Siddheshwar Women's College.</li>
+        <li>4.1st at WITchar 2025 for Innoverse (Problem Solver)</li> 
+        <li>5.Participated in All India University (Diving)</li>
+         <li>6.Participated in South West Zone (Diving)</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Varun Dornal | Designed with ❤️
+    </div>
+  </div>
+</body>
+</html>
