@@ -26,6 +26,16 @@
       line-height: 1.7;
     }
 
+    /* Top Banner */
+    .top-banner {
+      background-color: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
     .container {
       max-width: 1100px;
       margin: auto;
@@ -122,9 +132,25 @@
     .links a:hover {
       text-decoration: underline;
     }
+
+    /* Highlight the Personal Profile link */
+    .highlight-link {
+      font-weight: bold;
+      color: var(--primary);
+    }
+
+    .highlight-link:hover {
+      text-decoration: underline;
+      color: var(--accent);
+    }
   </style>
 </head>
 <body>
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <p>Welcome to my portfolio! I am Varun Dornal, an ECE student with a passion for technology and innovation.</p>
+  </div>
+
   <div class="container">
     <div class="header">
       <img src="IMG-20240829-WA0016.jpg" alt="Varun Dornal" />
@@ -197,9 +223,9 @@
     <div class="section links">
       <h3>Additional Projects</h3>
       <ul>
-        <li><a href="https://varunsd7.github.io/pp/" target="_blank">Personal Profile</a></li>
+        <li><a href="https://varunsd7.github.io/pp/" target="_blank" class="highlight-link">Personal Profile</a></li>
         <li><a href="https://varunsd7.github.io/To_Do/" target="_blank">To Do List</a></li>
-        <li><a href="https://varunsd7.github.io/Mdm-Wensite/" target="_blank">Resume Bulider</a></li>
+        <li><a href="https://varunsd7.github.io/Mdm-Wensite/" target="_blank">Resume Builder</a></li>
       </ul>
     </div>
 
